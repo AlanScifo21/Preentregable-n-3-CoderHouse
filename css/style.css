@@ -7,6 +7,7 @@ header {
   display: flex;
   justify-content: space-around;
   background-color: cornflowerblue;
+  align-items: center;
 }
 header img {
   max-width: 150px;
@@ -23,11 +24,11 @@ header nav ul li a {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  transition: 1s;
 }
-
-header a:hover {
+header nav ul li a:hover {
+  color: black;
   margin: 5px;
+  transition: 1s;
 }
 
 /*# sourceMappingURL=style.css.map */
