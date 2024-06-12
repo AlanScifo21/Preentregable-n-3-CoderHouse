@@ -232,4 +232,53 @@ footer p {
   margin-top: 15px;
 }
 
+.container-tarjeta {
+  background-color: cornflowerblue;
+  padding: 25px;
+  margin-top: 50px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.sobre-nosotros h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  width: 75%;
+}
+.sobre-nosotros p {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 75%;
+}
+
+.tarjeta {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 8px 12px 17px -2px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 8px 12px 17px -2px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 8px 12px 17px -2px rgba(0, 0, 0, 0.63);
+  transition: 1s;
+}
+.tarjeta:hover {
+  transform: translate(-65px, 80px);
+}
+.tarjeta h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
+.tarjeta p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.tarjeta ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-top: 5px;
+}
+
+div {
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
